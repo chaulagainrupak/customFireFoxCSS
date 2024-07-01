@@ -1,0 +1,62 @@
+:root{
+  --scrollbox-color: #212329;
+  --titlebar-close: red;
+  --titlebar-max: limegreen;
+  --titlebar-min: yellow;
+}
+
+.tab-close-button{
+  border-radius: 50% !important;: 
+}
+
+.tab-content, .tab-stack{
+  border-radius: 20px 20px 0px 0px !important;;
+}
+#firefox-view-button{
+  display: none;
+}
+
+#tabbrowser-tabs{
+  border-inline-start: none !important;;
+}
+
+.titlebar-spacer{
+  display: none;
+}
+
+scrollbox, .titlebar-button, #alltabs-button, hbox, toolbaritem, .activity-stream {
+  background-color: var(--scrollbox-color);
+  outline: none;
+}
+
+.titlebar-close {
+  & > .toolbarbutton-icon {
+    background-image: none !important;;
+    background-color: var(--titlebar-close);
+    height: 0.5rem;
+  }
+}
+
+.titlebar-max,.titlebar-restore{
+  & > .toolbarbutton-icon{
+    background-image: none !important;;
+    background-color: var(--titlebar-max) !important;: 
+  }
+}
+
+.titlebar-min {
+  & > .toolbarbutton-icon{
+    background-image: none !important;
+    background-color: var(--titlebar-min) !important;;
+  }
+}
+
+.titlebar-button {
+  padding: none !important;
+  margin: none !important;
+scale: 0.8; 
+}
+
+#PersonalToolbar{
+  padding-inline: 0 !important;
+}
